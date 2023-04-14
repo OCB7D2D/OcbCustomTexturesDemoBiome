@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefabs>
+  <decoration type="model" name="survivor_site_03" position="326,32,-249" rotation="2" />
+  <decoration type="model" name="abandoned_house_06" position="-102,32,366" rotation="3" />
+  <decoration type="model" name="survivor_site_08" position="304,36,-102" rotation="3" />
+  <decoration type="model" name="cabin_08" position="153,36,13" rotation="0" />
+  <decoration type="model" name="cabin_04" position="416,34,-409" rotation="1" />
+  <decoration type="model" name="abandoned_house_05" position="488,31,60" rotation="1" />
+  <decoration type="model" name="cabin_12" position="126,34,-139" rotation="2" />
+  <decoration type="model" name="ranger_station_03" position="389,36,-77" rotation="0" />
+  <decoration type="model" name="gas_station_08" position="385,28,-234" rotation="1" />
+  <decoration type="model" name="installation_red_mesa" position="352,13,90" rotation="0" />
+  <decoration type="model" name="survivor_site_04" position="-361,33,41" rotation="1" />
+  <decoration type="model" name="ranger_station_02" position="244,37,-4" rotation="0" />
+  <decoration type="model" name="abandoned_house_02" position="-429,39,497" rotation="0" />
+  <decoration type="model" name="ranger_station_01" position="490,35,-498" rotation="2" />
+  <decoration type="model" name="ranger_station_05" position="-279,34,9" rotation="0" />
+  <decoration type="model" name="cave_03" position="206,5,-185" rotation="2" />
+  <decoration type="model" name="survivor_site_06" position="-249,32,320" rotation="3" />
+  <decoration type="model" name="army_camp_02" position="141,34,119" rotation="0" />
+  <decoration type="model" name="survivor_site_01" position="-400,33,328" rotation="1" />
+  <decoration type="model" name="survivor_site_02" position="463,35,-3" rotation="3" />
+  <decoration type="model" name="abandoned_house_08" position="472,36,-113" rotation="0" />
+  <decoration type="model" name="army_camp_03" position="-23,32,-169" rotation="2" />
+  <decoration type="model" name="survivor_site_05" position="74,36,-150" rotation="3" />
+  <decoration type="model" name="survivor_site_07" position="-389,37,446" rotation="1" />
+  <decoration type="model" name="abandoned_house_03" position="252,36,121" rotation="0" />
+  <decoration type="model" name="ranger_station_04" position="501,35,127" rotation="2" />
+  <decoration type="model" name="field_concert_01" position="504,36,-309" rotation="0" />
+  <decoration type="model" name="part_concert_sign_02" position="531,41,-266" rotation="0" />
+  <decoration type="model" name="part_kiosk_foodtrailer_01" position="507,37,-306" rotation="1" />
+  <decoration type="model" name="survivor_site_09" position="338,34,-402" rotation="0" />
+  <decoration type="model" name="cabin_03" position="92,36,-227" rotation="0" />
+</prefabs>

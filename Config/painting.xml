@@ -1,26 +1,27 @@
 <configs>
 
 	<append xpath="/paints">
+
 		<!-- shore-sand -->
-		<microsplat index="24">
+		<microsplat index="4">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[0]"/>
 			<property name="Normal" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_normal_tarray[0]"/>
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[0]"/>
 		</microsplat>
 		<!-- moss -->
-		<microsplat index="25">
+		<microsplat index="5">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[1]"/>
 			<property name="Normal" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_normal_tarray[1]"/>
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[1]"/>
 		</microsplat>
 		<!-- rock-cliff -->
-		<microsplat index="26">
+		<microsplat index="6">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[2]"/>
 			<property name="Normal" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_normal_tarray[2]"/>
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[2]"/>
 		</microsplat>
 		<!-- cliff -->
-		<microsplat index="27">
+		<microsplat index="9">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[3]"/>
 			<property name="Normal" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_normal_tarray[3]"/>
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[3]"/>
@@ -80,7 +81,7 @@
 			<property name="erosion-active" value="false"/>
 			<property name="cavity-active" value="false"/>
 			<!-- Index into MicroSplat Texture2DArray -->
-			<property name="microsplat-index" value="27"/>
+			<property name="microsplat-index" value="9"/>
 			<!-- Defines what biome color layer reacts to -->
 			<property name="biome-weight-1" value="0.0,0.0,0.0,0.0"/>
 			<property name="biome-weight-2" value="0.0,1.0,0.0,0.0"/>
@@ -111,7 +112,7 @@
 			<property name="erosion-active" value="false"/>
 			<property name="cavity-active" value="false"/>
 			<!-- Index into MicroSplat Texture2DArray -->
-			<property name="microsplat-index" value="25"/>
+			<property name="microsplat-index" value="5"/>
 			<!-- Defines what biome color layer reacts to -->
 			<property name="biome-weight-1" value="0.0,0.0,0.0,0.0"/>
 			<property name="biome-weight-2" value="0.0,1.0,0.0,0.0"/>
@@ -144,7 +145,7 @@
 			<property name="erosion-active" value="false"/>
 			<property name="cavity-active" value="false"/>
 			<!-- Index into MicroSplat Texture2DArray -->
-			<property name="microsplat-index" value="24"/>
+			<property name="microsplat-index" value="4"/>
 			<!-- Defines what biome color layer reacts to -->
 			<property name="biome-weight-1" value="0.0,0.0,0.0,0.0"/>
 			<property name="biome-weight-2" value="0.0,1.0,0.0,0.0"/>
@@ -170,7 +171,7 @@
 			<property name="erosion-active" value="false"/>
 			<property name="cavity-active" value="false"/>
 			<!-- Index into MicroSplat Texture2DArray -->
-			<property name="microsplat-index" value="26"/>
+			<property name="microsplat-index" value="6"/>
 			<!-- Defines what biome color layer reacts to -->
 			<property name="biome-weight-1" value="0.0,0.0,0.0,0.0"/>
 			<property name="biome-weight-2" value="0.0,1.0,0.0,0.0"/>

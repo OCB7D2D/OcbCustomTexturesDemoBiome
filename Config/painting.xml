@@ -3,13 +3,13 @@
 	<append xpath="/paints">
 
 		<!-- shore-sand -->
-		<microsplat index="4">
+		<microsplat index="3">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[0]"/>
 			<property name="Normal" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_normal_tarray[0]"/>
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[0]"/>
 		</microsplat>
 		<!-- moss -->
-		<microsplat index="5">
+		<microsplat index="1">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[1]"/>
 			<property name="Normal" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_normal_tarray[1]"/>
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[1]"/>
@@ -27,6 +27,7 @@
 			<property name="Specular" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_smoothAO_tarray[3]"/>
 		</microsplat>
 		<!-- test-4k -->
+
 		<!--
 		<microsplat index="28">
 			<property name="Diffuse" value="#@modfolder:Resources/MicroSplat.unity3d?assets/CustomBiome/CustomBiome_diff_tarray[4]"/>
@@ -65,6 +66,20 @@
 			<property name="Normal" value="#@modfolder:Resources/Terrain.unity3d?assets/4k.normal.jpg"/>
 		</microsplat>
 -->
+
+<!--
+    // Layer 0 => (1.0, 0.0, 0.0, 0.0) and (0.0, 0.0, 0.0, 0.0) => texture 1
+    // Layer 2 => (0.0, 1.0, 0.0, 0.0) and (0.0, 0.0, 0.0, 0.0) => texture 1
+    // Layer 5 => (0.0, 0.0, 1.0, 0.0) and (0.0, 0.0, 0.0, 0.0) => texture 1
+    // Layer 9 => (0.0, 0.0, 0.0, 0.0) and (1.0, 0.0, 0.0, 0.0) => texture 3
+    // Layer 7 => (0.0, 0.0, 0.0, 1.0) and (0.0, 0.0, 0.0, 0.0) => texture 8
+-->
+		<!-- point existing biome layers to use duplicate vertex texture id -->
+		<biome-layer index="0"><property name="microsplat-index" value="19"/></biome-layer>
+		<biome-layer index="2"><property name="microsplat-index" value="19"/></biome-layer>
+		<biome-layer index="5"><property name="microsplat-index" value="19"/></biome-layer>
+		<biome-layer index="9"><property name="microsplat-index" value="20"/></biome-layer>
+		<biome-layer index="7"><property name="microsplat-index" value="23"/></biome-layer>
 
 		<!-- cliff -->
 		<biome-layer index="12">
@@ -112,7 +127,7 @@
 			<property name="erosion-active" value="false"/>
 			<property name="cavity-active" value="false"/>
 			<!-- Index into MicroSplat Texture2DArray -->
-			<property name="microsplat-index" value="5"/>
+			<property name="microsplat-index" value="1"/>
 			<!-- Defines what biome color layer reacts to -->
 			<property name="biome-weight-1" value="0.0,0.0,0.0,0.0"/>
 			<property name="biome-weight-2" value="0.0,1.0,0.0,0.0"/>
@@ -145,7 +160,7 @@
 			<property name="erosion-active" value="false"/>
 			<property name="cavity-active" value="false"/>
 			<!-- Index into MicroSplat Texture2DArray -->
-			<property name="microsplat-index" value="4"/>
+			<property name="microsplat-index" value="3"/>
 			<!-- Defines what biome color layer reacts to -->
 			<property name="biome-weight-1" value="0.0,0.0,0.0,0.0"/>
 			<property name="biome-weight-2" value="0.0,1.0,0.0,0.0"/>
